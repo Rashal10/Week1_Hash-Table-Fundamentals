@@ -5,7 +5,7 @@ class TokenBucket {
     private final long maxTokens;
     private final long refillIntervalMs;
     private final long refillAmount;
-    private AtomicLong tokens;
+    private A   tomicLong tokens;
     private volatile long lastRefillTime;
 
     public TokenBucket(long maxTokens, long refillIntervalMs, long refillAmount) {
